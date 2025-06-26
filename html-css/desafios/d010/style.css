@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body {
+background-color: rgb(80,212,109);  
+}
+
+header {
+  background-image: linear-gradient(-170deg, rgb(33,200,58), rgb(10,93,28) );
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inicio {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.inicio h4 {
+  display: flex;
+}
+
+.inicio h1 {
+  display: flex;
+  align-items: center;
+  text-shadow: 1px 2px 1px rgba(0,0,0,0.523);
+  
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  align-self: flex-start;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 2px 2px rgba(0,0,0,0.523);
+}
+
+main {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 120%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 8px;
+  gap: 8px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.523);
+}
+
+main h1, h2 {
+  color: rgb(0,83,19);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.523);
+}
+
+#irina-blok {
+  align-self: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#android {
+  width: 55%;
+  height: 55%;
+  align-self: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 6px;
+}
+
+#video {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+#bug {
+  width: 55%;
+  height: 55%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#extra {
+  background-color: rgb(19,117,42);
+  width: 100%;
+  color: #fff;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+#extra h2 {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.523);
+  color: #fff;
+}
+
+section aside {
+  padding: 10px 30px;
+}
+
+#h2 {
+  padding: 20px;
+  background-color: rgb(57,57,57);
+  border-radius: 5px;
+}
+
+.texto-extra {
+  padding: 15px;
+}
+
+main a {
+  color: rgb(30,155,239);
+  text-decoration: none;
+}
+
+#versions {
+  display: flex;
+  flex-direction: row;
+}
+
+#final {
+  display: flex;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(23,88,0);
+  margin-top: 38px;
+  color: #fff;
+  height: 50px;
+  font-size: 1.5rem;
+  align-items: center;
+  padding: 20px;
+}
+
+main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+header a:hover {
+  color: rgb(73,243,255);
+  text-decoration: underline;
+}
+
+#extra a:hover {
+  color: rgb(73,243,255);
+  text-decoration: underline;
+}
+

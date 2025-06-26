@@ -1,0 +1,26 @@
+#amarelo {
+  background-color: rgb(229,229,132);
+  color: #818211;
+}
+
+#amarelo a {
+  color: #818211;
+}
+
+#verde {
+  background-color: rgb(132,229,165);
+  color: #118211;
+}
+
+#verde a {
+  color: #118211;
+}
+
+#cinza {
+  background-color: rgb(188,188,188);
+  color: rgb(52,52,52);
+}
+
+#cinza a {
+  color: rgb(52,52,52);
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+#d1, #d2, #d3 {
+  display: inline-block;
+  background-color: lightgray;
+  border: 2px solid black;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+#index div:hover {
+  background-color: rgb(254,188,71);
+}
+
+/*==========================================*/
+
+.bt {
+  background-color: rgb(63,63,63);
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 180px;
+  height: 30px;
+  display: none;
+}
+
+button:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.div-bt {
+  padding: 3px;
+}
+
+#menu {
+  text-align: center;
+}
+
+#menu:hover .bt {
+  display: flex;
+  transition: 0.5s;
+}
+
+#bar {
+  background-color: rgb(63,63,63);
+  color: #fff;
+}

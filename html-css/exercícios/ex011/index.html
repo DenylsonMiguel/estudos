@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Niddies em HTML5</title>
+</head>
+<body>
+  <h1>Imagens dinâmicas</h1>
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumenta e diminui o tamanho do seu navegador</p>
+  
+  <picture>
+    <source media="(max-width: 750px)" srcset="imgs/imgpq.jpg" type="image/jpg">
+    <source media="(max-width: 1050px)" srcset="imgs/imgmd.jpg" type="image/jpg">
+    <img src="imgs/imggd.jpg" alt="imagem flexivel">
+  </picture>
+  <h1>Reproduzindo audios</h1>
+  <p>Vamos aprender a reproduzir audios em HTML5</p>
+  <audio src="media/future-design-344320.mp3" controls autoplay> </audio>
+  <audio preload="metadata" controls autoplay>
+    <source src="media/220.mp3" type="audio/mpeg">
+    <source src="media/220.ogg" type="audio/ogg">
+    <p>Infelizmente não vai ser possivel carregar o dobrado 220</p>
+  </audio>
+</body>
+</html>

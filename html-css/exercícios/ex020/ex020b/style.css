@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* SELETORES PERSONALIZADOS
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    > = clildren
+*/
+
+
+
+body {
+  font-family: 'Poppins';
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+a:after {
+  content: ' (link)';
+  text-decoration: none;
+  color: gray;
+}
+
+a#meio {
+  color: red;
+}
+.seta {
+  color: blue;
+}
