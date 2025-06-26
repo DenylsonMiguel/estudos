@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    body {
+      min-height: 1000px;
+    }
+  </style>
+  <title>RPG Desafio 3</title>
+</head>
+
+<body>
+  <h1>O if do destino</h1>
+  <h3>Missão:</h3>
+  <p>Ao seguir sua jornada, você encontra uma encruzilhada. Um velho cavaleiro de armadura enferrujada te avisa:</p>
+  <p>Só quem souber usar a lógica condicional pode atravessar...</p>
+  
+  <h3>Tarefa:</h3>
+  <p>Crie um formulário com:</p>
+  <p>Um campo para o nome</p>
+  <p>Um campo para a idade</p>
+  <p>Um botão que chama a função verificarDestino()</p>
+  <p>Essa função deve:</p>
+  <p>Dizer se a pessoa pode ou não entrar na Guilda dos Devs</p>
+  <p>Se a idade for maior ou igual a 18, mostrar:</p>
+  <p><em>"Seja bem-vindo(a), [nome]. A Guilda dos Devs te recebe de braços abertos!"</em></p>
+  <p>Se for menor:</p>
+  <p><em>"Sinto muito, [nome], você ainda não tem idade suficiente para entrar na Guilda."</em></p>
+  
+  <form action="" method="get">
+    <input type="number" id="idade" placeholder="idade"> <br>
+    <input type="text" id="nome" placeholder="nome">
+    <button type="button" onclick="verificarDestino()">Enviar</button>
+  </form>
+  <h3 id="text"></h3>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
