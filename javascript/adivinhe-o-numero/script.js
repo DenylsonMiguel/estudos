@@ -4,7 +4,7 @@ if (isNaN(medida)) {
   throw "Ocorreu algum erro durante a execyção do programa."
 }
 
-var numEscondido = (Math.floor(Math.random() * medida) + 1)
+var numEscondido = (Math.floor(Math.random() * medida))
 
 var tentyn = (confirm('limite de tentativas?'))
 
@@ -40,20 +40,19 @@ for (contador = 1; numero != numEscondido; contador++) {
     throw "Ocorreu algum erro durante a execyção do programa."
   }
   if (numero === numEscondido) {
-  vitoria = true
-  break
-}
+    vitoria = true;
+    break;
+  }
 
-if (contador === limiteTentativas) {
-  derrota = true
-  break
-}
+  if (contador === limiteTentativas) {
+    derrota = true;
+    break;
+  }
 
 
 
 }
 
 if (vitoria == true) {
-  console.log(`Parabéns você descobriu o numero ${numEscondido} que estava entre 1 e ${medida}, com ${contador} tentativas, e com um limite de ${limiteTentativas} tentativas!`)
+  console.log(`Parabéns você descobriu o numero ${numEscondido} que estava entre 1 e ${medida}, com ${contador} tentativas, e com um limite de ${limiteTentativas} tentativas!`);
 }
-

@@ -1,11 +1,25 @@
-numeroSecreto = 7
+function calcular() {
+  const num1 = parseFloat(prompt("Digite o primeiro número:"));
+  let operacao = prompt("Escolha (+, -, *, /)");
 
-chute = parseInt(prompt("Adivinhe o número mágico entre 1 e 10"))
+  while (!["+", "-", "*", "/"].includes(operacao)) {
+    operacao = prompt("Inválido! Escolha (+, -, *, /)");
+  }
 
-if (chute === numeroSecreto) {
-  console.log("Parabéns! Você acertou o número secreto!")
-} else if (isNaN(chute) || chute > 10 || chute < 1) {
-  console.log("Número invalido")
-} else {
-  console.log("Errou! Tente novamente.")
+  const num2 = parseFloat(prompt("Digite o segundo número:"));
+  let resultado;
+
+  if (operacao === "+") {
+    resultado = (num1 + num2);
+  } else if (operacao === "-") {
+    resultado = (num1 - num2);
+  } else if (operacao === "*") {
+    resultado = (num1 * num2);
+  } else {
+    resultado = (num1 / num2);
+  }
+
+  console.log(`Resultado:  ${resultado}`);
 }
+
+calcular();
