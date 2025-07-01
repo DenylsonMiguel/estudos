@@ -10,6 +10,7 @@ Meu objetivo é registrar meu progresso prático e consolidar o conhecimento adq
 
 - [📁 Estudos de HTML e CSS](https://github.com/DenylsonMiguel/estudos/tree/main/html-css)  
 - [📁 Estudos de JavaScript](https://github.com/DenylsonMiguel/estudos/tree/main/javascript)
+- [📁 Estudos de PHP](https://github.com/DenylsonMiguel/estudos/tree/main/php)
 
 ---
 
