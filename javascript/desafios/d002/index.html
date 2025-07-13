@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Verificador de idade</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <div id="ative">
+    <h2>Por favor ative o JavaScript</h2>
+    <p>Este site necessita do JavaScript para o seu funcionamento adequado</p>
+  </div>
+  <main>
+    <h1>Verificador de idade</h1>
+    <div id="box">
+      <form action="" method="get" autocomplete="on">
+        <p>
+          <label for="ano">Ano do nascimento: </label>
+          <input type="number" autocomplete="bday-year" name="ano" id="ano" min="1900" max="2025" required />
+        </p>
+        
+        <p>
+          <label>Sexo: </label>
+          <input type="radio" name="sexo" id="masculino">
+          <label for="masculino">Masculino</label>
+          <input type="radio" name="sexo" id="feminino" checked>
+          <label for="feminino">Feminino</label>
+        </p>
+        
+        <p>
+          <input type="submit" />
+        </p>
+      </form>
+      
+      <div id="resultado">
+        <h3 id="idade"></h3>
+      </div>
+    </div>
+    <p>&COPY; Denylson Miguel</p>
+  </main>
+  <script src="src/script.js"></script>
+</body>
+
+</html>

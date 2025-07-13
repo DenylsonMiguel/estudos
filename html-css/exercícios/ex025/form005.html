@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exemplo de formulario</title>
+</head>
+
+<body>
+  <form action="cadrasto.php" method="get" accept-charset="utf-8">
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" id="sxmas"  value="m"/> <label for="sxmas">Masculino</label> <br>
+      <input type="radio" name="sexo" id="sxfem" checked  value="f"/> <label for="sxfem">Feminino</label> <br>
+    </fieldset>
+    <fieldset>
+      <legend>Esportes favoritos</legend>
+      <input type="checkbox" name="esbas" id="esbas"/> <label for="esbas">Basquete</label> <br />
+      <input type="checkbox" name="esfut" id="esfut" checked /> <label for="esfut">Futebol</label> <br />
+      <input type="checkbox" name="esnat" id="esnat" /> <label for="esnat">Natação</label> <br />
+      <input type="checkbox" name="esten" id="esten" /> <label for="esten">Tênis</label> <br />
+    </fieldset>
+    
+    <p>
+      <input type="submit" />
+      <input type="reset" />
+    </p>
+  </form>
+</body>
+
+</html>

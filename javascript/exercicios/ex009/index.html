@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <div id="container">
+    <div id="box">
+      <h2>Sistema de multas</h2>
+      
+      <form action="" method="post">
+        <div id="texto">
+          
+          <div>
+            <label for="placa">&numero; Da placa: </label>
+            <input type="text" name="placa" maxlength="8" id="placa" placeholder="123ABC4" />
+          </div>
+          
+          <div>
+            <label for="txtvel">Velocidade: </label>
+            <input type="number" name="txtvel" id="txtvel" placeholder="45km/h" />
+          </div>
+        </div>
+        
+        <h3 id="resultado"></h3>
+        
+        <div>
+          <input type="submit" value="Enviar Dados" />
+          <input type="reset" />
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

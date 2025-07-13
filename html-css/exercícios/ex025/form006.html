@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form action="cadastro.php" method="get" accept-charset="utf-8">
+    
+    <p>
+      <label for="cor">Cor: </label>
+      <input type="color" name="cor" id="cor" value="#5ad310" />
+    </p>
+    
+    <p>
+      <label for="sat">Fatisfação: </label>
+      <input type="range" name="sat" id="sat" min="1" max="5" value="5" />
+    </p>
+    
+    <p>
+      <label for="foto">Foto: </label>
+      <input type="file" name="foto" id="foto" />
+    </p>
+    
+    <p>
+      <input type="reset" />
+      <input type="submit" />
+    </p>
+  </form>
+</body>
+
+</html>

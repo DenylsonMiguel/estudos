@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border;
+    }
+    
+    body {
+      height: 100%;
+    }
+    
+    div#area {
+      font: normal 20pt Arial;
+      background-color: transparent;
+      color: #fff;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      line-height: 200px;
+    }
+    
+    div#segundaArea {
+      font: normal 20pt Arial;
+      background-color: rgb(235, 114, 114);
+      color: #fff;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      line-height: 200px;
+    }
+    
+    div#terceiraArea {
+      font: normal 20pt Arial;
+      background-color: rgb(47, 199, 210);
+      color: #fff;
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      line-height: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="area" onmouseenter="entrou()" onmouseout="saiu()">
+    Você me achou...
+  </div>
+  
+  <div id="segundaArea" onclick="clicar()">
+    Interaja...
+  </div>
+  
+  <div id="terceiraArea">
+    Mova o mouse
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

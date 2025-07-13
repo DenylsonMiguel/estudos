@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contador de cliques</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="conteudo">
+      <h3 id="melhoria"></h3>
+      <button id="clique" onclick="clicou()">
+        <h2 id="quantidade">Clique em mim</h2>
+      </button>
+      <h3 id="prox"></h3>
+      <div id="auto">
+        <button onclick="auto()" id="botaoAuto">
+          Clique automatico
+        </button>
+        <button onclick="pararAuto()" id="botaoAuto">
+          Parar
+        </button>
+      </div>
+      <div id="melhorias">
+        <div id="melhoriaFeitaCaixa1">
+          <div id="mf1" class="melhoriaFeita"></div>
+          <div id="mf2" class="melhoriaFeita"></div>
+          <div id="mf3" class="melhoriaFeita"></div>
+          <div id="mf4" class="melhoriaFeita"></div>
+          <div id="mf5" class="melhoriaFeita"></div>
+          <div id="mf6" class="melhoriaFeita"></div>
+          <div id="mf7" class="melhoriaFeita"></div>
+          <div id="mf8" class="melhoriaFeita"></div>
+        </div>
+        <div id="melhoriaFeitaCaixa2">
+          <div id="mf9" class="melhoriaFeita area2"></div>
+          <div id="mf10" class="melhoriaFeita area2"></div>
+          <div id="mf11" class="melhoriaFeita area2"></div>
+          <div id="mf12" class="melhoriaFeita area2"></div>
+          <div id="mf13" class="melhoriaFeita area2"></div>
+          <div id="mf14" class="melhoriaFeita area2"></div>
+          <div id="mf15" class="melhoriaFeita area2"></div>
+          <div id="mf16" class="melhoriaFeita area2"></div>
+        </div>
+      </div>
+      <div id="melhoresultado">
+        <h3 id="melhor"></h3>
+      </div>
+      <div id="adm">
+        <h3>Você é um adm?</h3>
+        <input type="password" name="senha" id="senha" placeholder="senha" />
+        <button id="enviar" onclick="senha()">Enviar</button>
+        <button onclick="fechar()" id="fechar">Fechar</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

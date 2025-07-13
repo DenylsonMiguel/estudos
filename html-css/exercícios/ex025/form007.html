@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form action="cadastro.php" method="get" accept-charset="utf-8">
+    
+    <p>
+      <label for="estado">estado: </label>
+      <select name="estado" id="estado">
+        <option value="" select>ESCOLHA UM ESTADO</option>
+        <optgroup label="south and southdest">
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="northest">
+          <option value="RS">Rio grande do sul</option>
+          <option value="PB">Paraaiba</option>
+          <option value="PE">Pernanbuco</option>
+        </optgroup>
+      </select>
+    </p>
+    
+    <p>
+      <label for="prof">Profisão: </label>
+      <input list="lstprof" type="text" name="prof" id="prof">
+      <datalist id="lstprof">
+        <option value="ADM">Adiministrador</option>
+        <option value="CONT">Contador</option>
+        <option value="DR">Doutor</option>
+        <option value="DEV">Developer</option>
+      </datalist>
+    </p>
+    
+    <p>
+      <label for="msg">Mensagem: </label>
+      <textarea name="msg" id=msg rows="8" cols="40" placeholder="eu não gostei do hamburguer..."></textarea>
+    </p>
+    
+    <p>
+      <input type="submit">
+      <input type="reset" />
+    </p>
+  </form>
+</body>
+
+</html>
