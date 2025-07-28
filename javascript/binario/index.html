@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>binary calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="painel">
+    <div class="rows">
+      <input onchange="interruptor(8)" type="checkbox" name="interruptor" id="interruptor-8" />
+      <label for="interruptor-8">
+        <div class="lampada" id="lampada-8"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(7)" type="checkbox" name="interruptor" id="interruptor-7" />
+      <label for="interruptor-7">
+        <div class="lampada" id="lampada-7"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(6)" type="checkbox" name="interruptor" id="interruptor-6" />
+      <label for="interruptor-6">
+        <div class="lampada" id="lampada-6"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(5)" type="checkbox" name="interruptor" id="interruptor-5" />
+      <label for="interruptor-5">
+        <div class="lampada" id="lampada-5"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(4)" type="checkbox" name="interruptor" id="interruptor-4" />
+      <label for="interruptor-4">
+        <div class="lampada" id="lampada-4"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(3)" type="checkbox" name="interruptor" id="interruptor-3" />
+      <label for="interruptor-3">
+        <div class="lampada" id="lampada-3"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(2)" type="checkbox" name="interruptor" id="interruptor-2" />
+      <label for="interruptor-2">
+        <div class="lampada" id="lampada-2"></div>
+      </label>
+    </div>
+    
+    <div class="rows">
+      <input onchange="interruptor(1)" type="checkbox" name="interruptor" id="interruptor-1" />
+      <label for="interruptor-1">
+        <div class="lampada" id="lampada-1"></div>
+      </label>
+    </div>
+    
+  </div>
+  
+  <div class="painel">
+    
+    <div id="palavras">
+      <div id="texto">
+        ...
+      </div>
+      <button onclick="adicionarLetra()">Adicionar</button>
+    </div>
+    
+    <div class="rows">
+      <output id="result">
+        <span id="value">0</span>
+      </output>
+    </div>
+    
+    <div class="rows">
+      <output id="ascii">
+        <span id="data">NUL</span>
+      </output>
+    </div>
+    
+  </div>
+  
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 var medida = parseInt(prompt("Escolha até onde vai o nosso desafio, de 1 a:"))
 
 if (isNaN(medida)) {
-  throw "Ocorreu algum erro durante a execyção do programa."
+  console.error("Ocorreu algum erro durante a execução do programa.")
 }
 
 var numEscondido = (Math.floor(Math.random() * medida))
@@ -18,13 +18,13 @@ if (isNaN(limiteTentativas) || limiteTentativas <= 0) {
 
 }
 
-var numero = parseInt(prompt(`Me diga um numero de 1 a ${medida}`))
+let numero = parseInt(prompt(`Me diga um numero de 1 a ${medida}`))
 
-var contador = 1
+let contador = 1
 
-var vitoria = false
+let vitoria = false
 
-var derrota = false
+let derrota = false
 
 for (contador = 1; numero != numEscondido; contador++) {
   if (numero < numEscondido) {
@@ -37,7 +37,7 @@ for (contador = 1; numero != numEscondido; contador++) {
     vitoria = false
   }
   if (isNaN(numero)) {
-    throw "Ocorreu algum erro durante a execyção do programa."
+    console.error("Ocorreu algum erro durante a execução do programa.")
   }
   if (numero === numEscondido) {
     vitoria = true;

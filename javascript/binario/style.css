@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(37, 165, 196);
+}
+
+.painel {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[name="interruptor"] {
+  display: none;
+}
+
+.lampada {
+  background-color: rgb(59, 59, 59);
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#palavras {
+  background-color: rgb(59, 59, 59);
+  color: white;
+  border: 1px solid black;
+  border-radius: 7px;
+  min-height: 50px;
+  min-width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  word-break: break-word;
+  max-width: 50vw;
+  overflow-wrap: break-word;
+}
+
+button {
+  background-color: rgb(59, 59, 59);
+  color: rgb(105, 224, 230);
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#result,
+#ascii {
+  background-color: rgb(59, 59, 59);
+  color: yellow;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 70px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ascii {
+  color: rgb(37, 197, 42);
+}
+
+@media (max-width: 600px) {
+  .painel {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
